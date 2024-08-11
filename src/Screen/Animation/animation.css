@@ -1,0 +1,23 @@
+.bg_image_graphic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../Image/graphicImageOne.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.bg_text {
+  position: absolute;
+  top: 15%;
+  font-size: 65px;
+  left: 35%;
+  font-weight: 600;
+  color: white;
+  transform: translateX(-30%);
+}
+.appointment {
+  background-image: url(../../Image/AppointMent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
