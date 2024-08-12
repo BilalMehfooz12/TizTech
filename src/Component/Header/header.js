@@ -118,8 +118,13 @@ const Navbar = () => {
                   <MenuItem onClick={handleClose}>
                     Software Development
                   </MenuItem>
-                  <MenuItem onClick={handleClose}>Mobile Application</MenuItem>
-                  <MenuItem onClick={handleClose}>Data and Analytics</MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    <Link to="mobileApp">Mobile Application</Link>
+                  </MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    {" "}
+                    <Link to="dataScience"> Data and Analytics</Link>
+                  </MenuItem>
                   <MenuItem onClick={handleClose}>Game Development</MenuItem>
                   <MenuItem onClick={handleClose}>
                     Taxation and accounting services

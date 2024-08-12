@@ -3,6 +3,8 @@ import Header from "../../Component/Header/header";
 import Home from "../HomeComponent/homes";
 import WebDesign from "../WebDesign/webdesign";
 import Animation from "../Animation/animation";
+import MobileApp from "../MobieApplication/mobileApplication";
+import DataScience from "../DataScience/dataScience";
 import Footer from "../../Component/Footer/footer";
 function Routeing() {
   return (
@@ -12,6 +14,8 @@ function Routeing() {
         <Route path="/" element={<Home />} />
         <Route path="/webDesign" element={<WebDesign />} />
         <Route path="/animation" element={<Animation />} />
+        <Route path="/mobileApp" element={<MobileApp />} />
+        <Route path="/dataScience" element={<DataScience />} />
       </Routes>
       <Footer />
     </BrowserRouter>
