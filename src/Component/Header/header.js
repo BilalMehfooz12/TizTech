@@ -92,7 +92,6 @@ const Navbar = () => {
                     Services ^
                   </p>
                 </Button>
-
                 <Menu
                   id="demo-positioned-menu"
                   aria-labelledby="demo-positioned-button"
@@ -116,7 +115,7 @@ const Navbar = () => {
                   </MenuItem>
                   <MenuItem onClick={handleClose}>Content Writing</MenuItem>
                   <MenuItem onClick={handleClose}>
-                    Software Development
+                    <Link to="/softwDevlopment">Software Development</Link>
                   </MenuItem>
                   <MenuItem onClick={handleClose}>
                     <Link to="mobileApp">Mobile Application</Link>
@@ -130,7 +129,6 @@ const Navbar = () => {
                     Taxation and accounting services
                   </MenuItem>
                 </Menu>
-
                 <a
                   href="#"
                   className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
@@ -143,12 +141,13 @@ const Navbar = () => {
                 >
                   Focus
                 </a>
-                <a
-                  href="#"
+                <Link
+                  to="/contact"
                   className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
                 >
-                  Partners
-                </a>
+                  Contact
+                </Link>
+
                 <button class="bg-baseColor  text-white text-lg font-medium py-2 px-8 rounded">
                   TALK
                 </button>

@@ -1,0 +1,6 @@
+.software_bg {
+  background-image: url(../../Image/softwarebgImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
