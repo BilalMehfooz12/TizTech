@@ -113,7 +113,9 @@ const Navbar = () => {
                   <MenuItem onClick={handleClose}>
                     <Link to="animation">Animation / Graphics designing</Link>
                   </MenuItem>
-                  <MenuItem onClick={handleClose}>Content Writing</MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    <Link to="/contentWriting">Content Writing</Link>
+                  </MenuItem>
                   <MenuItem onClick={handleClose}>
                     <Link to="/softwDevlopment">Software Development</Link>
                   </MenuItem>
@@ -124,7 +126,9 @@ const Navbar = () => {
                     {" "}
                     <Link to="dataScience"> Data and Analytics</Link>
                   </MenuItem>
-                  <MenuItem onClick={handleClose}>Game Development</MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    <Link to="Game"> Game Development</Link>
+                  </MenuItem>
                   <MenuItem onClick={handleClose}>
                     Taxation and accounting services
                   </MenuItem>

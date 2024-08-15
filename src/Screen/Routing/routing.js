@@ -7,6 +7,8 @@ import MobileApp from "../MobieApplication/mobileApplication";
 import DataScience from "../DataScience/dataScience";
 import SoftwareDevelopment from "../softwareDevelopment/software";
 import ContactUs from "../ContactUs/contact";
+import Game from "../Game/game";
+import ContentWriting from "../ContentWriting/contentwriting";
 import Footer from "../../Component/Footer/footer";
 function Routeing() {
   return (
@@ -20,6 +22,8 @@ function Routeing() {
         <Route path="/dataScience" element={<DataScience />} />
         <Route path="/softwDevlopment" element={<SoftwareDevelopment />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/contentWriting" element={<ContentWriting />} />
       </Routes>
       <Footer />
     </BrowserRouter>
