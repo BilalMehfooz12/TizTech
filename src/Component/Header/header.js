@@ -152,7 +152,7 @@ const Navbar = () => {
                   Contact
                 </Link>
 
-                <button class="bg-baseColor  text-white text-lg font-medium py-2 px-8 rounded">
+                <button class="bg-baseColor  text-black text-lg font-medium py-2 px-8 rounded">
                   TALK
                 </button>
               </div>
@@ -179,31 +179,87 @@ const Navbar = () => {
         id="mobile-menu"
       >
         <div className="space-y-1 px-2 pb-3 pt-2">
+          <Link
+            className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
+            to="/"
+          >
+            Home
+          </Link>
+          <Button
+            aria-controls={open ? "demo-positioned-menu" : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? "true" : undefined}
+            className="text-white"
+            onClick={handleClick}
+          >
+            <p className="text-white text-[15px] sm:mt-1 -mt-2 font-bold">
+              Services ^
+            </p>
+          </Button>
+          <Menu
+            id="demo-positioned-menu"
+            aria-labelledby="demo-positioned-button"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "bottom", // Position the menu below the button
+              horizontal: "left",
+            }}
+            transformOrigin={{
+              vertical: "top", // Align the menu with the top edge of the anchor element
+              horizontal: "left",
+            }}
+          >
+            <MenuItem onClick={handleClose}>
+              <Link to="/webDesign"> Web design and development</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="animation">Animation / Graphics designing</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/contentWriting">Content Writing</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/softwDevlopment">Software Development</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="mobileApp">Mobile Application</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              {" "}
+              <Link to="dataScience"> Data and Analytics</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="Game"> Game Development</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              Taxation and accounting services
+            </MenuItem>
+          </Menu>
           <a
             href="#"
-            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
-            aria-current="page"
+            className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
           >
-            Dashboard
+            Products
           </a>
           <a
             href="#"
-            className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white"
+            className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
           >
-            Team
+            Focus
           </a>
-          <a
-            href="#"
-            className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white"
+          <Link
+            to="/contact"
+            className="rounded-md px-4 py-2 text-lg font-medium text-white hover:bg-baseColor hover:text-white"
           >
-            Projects
-          </a>
-          <a
-            href="#"
-            className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white"
-          >
-            Calendar
-          </a>
+            Contact
+          </Link>
+          <div className="flex sm:justify-end justify-center ">
+            <button class="bg-baseColor  my-8 text-black text-lg font-medium py-2 px-8 rounded">
+              TALK
+            </button>
+          </div>
         </div>
       </div>
     </nav>

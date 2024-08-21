@@ -4,10 +4,10 @@ const Footer = () => {
     <div className="max-w-8xl  border-t border-white bg-black text-white  ">
       <footer class="w-full ">
         <div class="mx-auto max-w-7xl  sm:px-6 ">
-          <div class="grid grid-cols-2 lg:px-24 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+          <div class="grid grid-cols-2 lg:px-20 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8 px-8">
             <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
               <img src={logo} className="w-36 h-20" />
-              <p class="py-8 text-[20px] lg:max-w-xs text-center lg:text-left">
+              <p class="py-8 lg:text-2xl md:text-2xl sm:text-2xl text-[12px] lg:max-w-xs text-center lg:text-left">
                 It is a long established fact that a reader will be distracted
                 The point of using Lorem Ipsum
               </p>

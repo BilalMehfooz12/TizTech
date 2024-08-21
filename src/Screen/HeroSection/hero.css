@@ -30,6 +30,30 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 801px) {
+  .video_text h1 {
+    font-size: 38px;
+  }
+  .video_text p {
+    margin-top: 6%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .video_text h1 {
+    font-size: 28px;
+  }
+  .video_text p {
+    margin-top: 6%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
 @media (max-width: 600px) {
   .video_text h1 {
     font-size: 14px;
@@ -38,8 +62,8 @@
   .video_text {
     position: absolute;
     top: 20%;
-    left: 2%;
-    right: 25%;
+    left: 5%;
+    right: 5%;
   }
   .video_text p {
     margin-top: 6%;
@@ -56,5 +80,6 @@
     margin-top: 10%;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 }
