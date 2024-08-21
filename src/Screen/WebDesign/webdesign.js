@@ -10,12 +10,14 @@ const WebDesign = () => {
   return (
     <div className="bg-black text-white py-16">
       <div className=" container mx-auto py-16 bg_image_web ">
-        <div className="grid grid-cols-12 lg:gap-16">
-          <div className="col-span-6">
+        <div className="grid grid-cols-12 lg:gap-16 md:gap-8">
+          <div className="lg:col-span-6 md:col-span-6 sm:col-span-10 col-span-12 sm:px-8 lg:px-0 md:px-0 px-8">
             <img src={serviceImageOne} className="w-full h-auto" />
           </div>
-          <div className="col-span-6 mt-16 ">
-            <h1 className="text-6xl font-bold">WEB DESIGN AND DEVELOPMENT</h1>
+          <div className="lg:col-span-6 md:col-span-6 sm:col-span-10 col-span-12 sm:px-8 lg:px-0 md:px-0 px-8 mt-16 ">
+            <h1 className="lg:text-6xl md:text-4xl sm:text-5xl font-bold">
+              WEB DESIGN AND DEVELOPMENT
+            </h1>
             <p className="py-12 lg:text-[20px] text-[12px]">
               t is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
@@ -31,16 +33,17 @@ const WebDesign = () => {
           </div>
         </div>
       </div>
+
       <div className="bg_image mt-16">
         <div className="container mx-auto">
-          <div className="grid  grid-cols-12 lg:gap-16  py-16 pb-24">
-            <div className="col-span-5">
-              <h1 className="lg:text-5xl text-2xl font-medium lg:pt-0 pt-8">
+          <div className="grid  grid-cols-12 lg:gap-16  py-16 pb-24 col-span-12 sm:px-8 lg:px-0 md:px-0 px-8">
+            <div className="lg:col-span-5 md:col-span-5 sm:col-span-6 col-span-12">
+              <h1 className="lg:text-5xl text-2xl font-medium lg:pt-0">
                 For Over 15 Years. <br></br>For Millions of{" "}
                 <span className="text-baseColor">Users</span>
               </h1>
             </div>
-            <div className="col-span-7">
+            <div className="lg:col-span-7 md:col-span-7 sm:col-span-6 col-span-12 lg:py-0 sm:py-0 md:py-0 py-10">
               <p className=" lg:text-[20px] text-[12px]">
                 It is a long established fact that a reader will the readable
                 conten by the readable content of a page when looking at its
@@ -51,9 +54,10 @@ const WebDesign = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto -mt-8">
-        <div className="grid grid-cols-12 lg:gap-16">
-          <div className="col-span-4">
+
+      <div className="container mx-auto sm:-mt-8 mt-8">
+        <div className="grid grid-cols-12 lg:gap-16 gap-6 sm:px-8 lg:px-0 md:px-0 px-8">
+          <div className="lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -62,7 +66,7 @@ const WebDesign = () => {
                     alt="Avatar"
                     className="w-full h-auto relative"
                   />
-                  <p className="text-4xl font-bold text-white absolute  bottom-3 left-16 text-center">
+                  <p className="lg:text-4xl md:text-2xl sm:text-2xl text-3xl font-bold text-white absolute  lg:bottom-3 md:bottom-20 md:left-10 sm:bottom-24  bottom-28 left-16 sm:left-10  lg:left-16 text-center">
                     Out Sourcing
                   </p>
                 </div>
@@ -81,7 +85,7 @@ const WebDesign = () => {
             </div>
           </div>
 
-          <div className="col-span-4">
+          <div className="lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -90,7 +94,7 @@ const WebDesign = () => {
                     alt="Avatar"
                     className="w-full h-auto relative"
                   />
-                  <p className="text-4xl font-bold text-white absolute  bottom-3 left-8 text-center">
+                  <p className="lg:text-4xl md:text-2xl sm:text-2xl text-3xl font-bold text-white absolute  lg:bottom-3 md:bottom-20 md:left-10 sm:bottom-24  bottom-28 left-5 sm:left-10  lg:left-10 text-center">
                     Web Development
                   </p>
                 </div>
@@ -109,7 +113,7 @@ const WebDesign = () => {
             </div>
           </div>
 
-          <div className="col-span-4">
+          <div className="lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -118,7 +122,7 @@ const WebDesign = () => {
                     alt="Avatar"
                     className="w-full h-auto relative"
                   />
-                  <p className="text-4xl font-bold text-white absolute  bottom-3 left-20 text-center">
+                  <p className="lg:text-4xl md:text-2xl sm:text-2xl text-3xl font-bold text-white absolute  lg:bottom-3 md:bottom-20 md:left-10 sm:bottom-24  bottom-28 left-16 sm:left-10  lg:left-16 text-center">
                     Web Design
                   </p>
                 </div>
@@ -139,8 +143,8 @@ const WebDesign = () => {
         </div>
       </div>
 
-      <div className="container mx-auto py-16 grid grid-cols-12 lg:gap-16 sm:gap-10 lg:px-6 px-6 ">
-        <div className="lg:col-span-6 md:col-span-12 sm:col-span-12 col-span-12">
+      <div className="container mx-auto py-16 grid grid-cols-12 lg:gap-16 sm:gap-10 sm:px-8 lg:px-0 md:px-0 px-8 ">
+        <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
           <h1 className="lg:text-5xl text-2xl font-medium">
             Your Partner for web{" "}
             <span className="text-baseColor">Innovation</span>
@@ -161,10 +165,10 @@ const WebDesign = () => {
             Explore All Apps
           </button>
         </div>
-        <div className="lg:col-span-6 md:col-span-12 sm:col-span-12 col-span-12">
+        <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
           <img
             src={webCardFour}
-            className="w-full h-[60vh] rounded-lg shadow-lg mt-10"
+            className="w-full md:h-[60vh] h-auto rounded-lg shadow-lg mt-10"
           />
         </div>
       </div>
@@ -181,7 +185,7 @@ const WebDesign = () => {
             <br></br>
             <br></br>
             <div className="grid grid-cols-12">
-              <div className="col-span-1">
+              <div className="lg:col-span-1 md:col-span-1 sm:col-span-1 col-span-2 ">
                 <svg
                   class="h-8 w-8 text-baseColor"
                   width="24"
@@ -228,9 +232,9 @@ const WebDesign = () => {
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
               </div>
-              <div className="col-span-8">
+              <div className="col-span-8 sm:mt-0 mt-2 ">
                 <p>Application Developments</p>
-                <p>Data Quality Management</p>
+                <p className="md:py-4 sm:py-4 py-3">Data Quality Management</p>
                 <p>Machine and Deep Learning</p>
               </div>
             </div>
@@ -241,7 +245,7 @@ const WebDesign = () => {
         </div>
         <div className="lg:col-span-6 md:col-span-12 sm:col-span-12 col-span-12">
           <div className="grid grid-cols-12 gap-5">
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="sm:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor "
@@ -265,7 +269,7 @@ const WebDesign = () => {
               </div>
               <p className="lg:text-[20px] pt-4 text-[12px] font-bold">WEB</p>
             </div>
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="sm:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor"
@@ -293,7 +297,7 @@ const WebDesign = () => {
                 ANDRIOD
               </p>
             </div>
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="sm:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor"
@@ -315,7 +319,7 @@ const WebDesign = () => {
               <p className="lg:text-[20px] pt-4 text-[12px] font-bold">IOS</p>
             </div>
 
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="lg:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor"
@@ -340,7 +344,7 @@ const WebDesign = () => {
               <p className="lg:text-[20px] pt-4 text-[12px] font-bold">IOT</p>
             </div>
 
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="lg:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor"
@@ -364,7 +368,7 @@ const WebDesign = () => {
               </p>
             </div>
 
-            <div className="col-span-4 border shadow-md border-borderColor text-center py-8">
+            <div className="lg:col-span-4 col-span-6 border shadow-md border-borderColor text-center py-8">
               <div className="flex justify-center">
                 <svg
                   class="h-8 w-8 text-baseColor"
@@ -385,8 +389,9 @@ const WebDesign = () => {
           </div>
         </div>
       </div>
+
       <div className="container mx-auto bg_imaage_webTwo py-20 mt-8">
-        <h1 className="w-full font-bold text-6xl px-5">
+        <h1 className="w-full font-bold sm:text-6xl text-4xl px-5">
           Let's Build Your Website!{" "}
           <button class="bg-baseColor  text-black lg:text-xl text-sm font-medium py-2 px-8 rounded  mx-6 ">
             Contact Us
